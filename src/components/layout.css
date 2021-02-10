@@ -51,6 +51,7 @@ template {
   display: none;
 }
 a {
+  
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
@@ -346,7 +347,7 @@ hgroup {
   margin-bottom: 1.45rem;
 }
 ul {
-  margin-left: 1.45rem;
+  margin-left: 0;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
@@ -488,9 +489,7 @@ dt {
 th {
   font-weight: bold;
 }
-li {
-  margin-bottom: calc(1.45rem / 2);
-}
+
 ol li {
   padding-left: 0;
 }
@@ -594,4 +593,14 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.logoImage {
+  width: 120px;
+}
+
+
+.navList li a {
+  color: #000;
+  text-Decoration: none;
 }
