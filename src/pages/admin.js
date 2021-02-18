@@ -11,7 +11,7 @@ function Adminpage() {
         <div>
             <Layout>
                 <h1>Admin page</h1>
-                <p>Add or update the news post</p>
+                <p>Add new post</p>
 
                 <Form />
                 <NewscontainerAdmin />

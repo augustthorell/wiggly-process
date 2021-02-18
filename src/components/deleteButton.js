@@ -29,7 +29,7 @@ const DeleteButton = (id) => {
     }
         return (
             <div>
-                <button onClick={ () => deleteAction(id)}>Delete</button>
+                <button onClick={ () => deleteAction(id)}>Delete post</button>
             </div>
         )
     

@@ -18,13 +18,13 @@ const NewscontainerAdmin = () => {
 
     return (
         <div>
+          <p>Update post</p>
             {articles.map((articles) =>
               <div key={articles.id}>
                 <h3>{articles.title}</h3>
                 <p>{articles.created_at}</p>
-                <p>{articles.body.substr(0, 40)}</p>
+                <p>{articles.body}</p>
                 <EditButton id={articles}/>
-                <br />
                 <DeleteButton id={articles.id} />
                 <br /><hr />
               </div>

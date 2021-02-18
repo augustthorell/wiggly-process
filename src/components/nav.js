@@ -15,7 +15,7 @@ function Nav() {
                 listStyle: `none`,
                 background: `#8ebf8f`,               
             }}>
-                <li><Link to="/about">About</Link></li>
+                
                 <li><Link to="/news">News</Link></li>
                 <li><Link to="/admin">Admin</Link></li>
                 

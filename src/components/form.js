@@ -1,12 +1,5 @@
 import React, { Component} from 'react'
 
-/* import MyApi from "../util/MyApi"
-
-import axios from 'axios'
-import { render } from 'react-dom' */
-
-
-
 class Form extends Component {
 
     constructor(props) {
@@ -73,6 +66,7 @@ class Form extends Component {
                             onChange={this.changeHandler}
                         /><br />
                         <button type="submit" onClick={this.pageReload}>Add new post</button>
+                        <br /><br /><hr />
                     </div>
                 </form>
             </div>

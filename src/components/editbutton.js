@@ -41,10 +41,9 @@ function EditButton(articles) {
                     className="titletextedit"
                     type="text"
                     name="edittitle"
-                    placeholder="Edit Title"
+                    placeholder={article.title}
                     value={editTitle} 
                     onChange={e => setTitle(e.target.value)} 
-                    /* style={{display: "none"}} */
                 />
                 <br />
                 <textarea
@@ -54,12 +53,11 @@ function EditButton(articles) {
                         width: 550,
                     }}
                     name="editbody"
-                    placeholder="Edit Content"
+                    placeholder={article.body}
                     value={editBody}
                     onChange={e => setBody(e.target.value)}
-                    /* style={{display: "none"}} */
-                />
-                <button type="submit" >Save edit</button><br />
+                /><br />
+                <button type="submit" >Update post</button><br />
             </form>
         </div>
     )

@@ -19,8 +19,9 @@ const Newscontainer = () => {
                 <h3>{articles.title}</h3>
                 <p>{articles.created_at}</p>
                 <p>{articles.body}</p>
-                
+                <hr />
               </div>
+              
             )}
         </div>
     )
